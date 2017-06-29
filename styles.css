@@ -1,0 +1,250 @@
+#wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  /*+r(1300)
+   * margin: 0 20px */ }
+
+button {
+  position: relative;
+  width: 170px;
+  height: 59px;
+  background-color: #16a085;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 15px; }
+
+/*--Header-- */
+#header {
+  z-index: 0;
+  position: relative;
+  top: -8px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 745px; }
+  #header a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif; }
+  #header .main-menu {
+    position: relative;
+    top: 60px;
+    left: 272.5px;
+    margin-bottom: 240px;
+    width: 900px; }
+    #header .main-menu a {
+      margin-right: 67px; }
+    #header .main-menu img {
+      position: relative;
+      z-index: 100;
+      width: 70px;
+      height: auto;
+      margin-right: 100px;
+      margin-left: 60px; }
+  #header .main-text {
+    position: relative;
+    left: 385px;
+    width: 50%;
+    color: #fff;
+    font-family: "Montserrat", sans-serif; }
+    #header .main-text h1 {
+      font-size: 36px; }
+  #header button {
+    width: 160px;
+    height: 50px; }
+
+/*--Main-- */
+.photoapp {
+  z-index: 2;
+  position: relative;
+  top: -25px;
+  height: 492px;
+  background-color: #f5f6f7; }
+  .photoapp img {
+    position: relative;
+    float: right;
+    top: 91px;
+    right: 128px; }
+  .photoapp h2 {
+    position: relative;
+    color: #16a085;
+    top: 110px;
+    left: 128px;
+    text-align: left; }
+  .photoapp p {
+    position: relative;
+    color: #373737;
+    top: 110px;
+    left: 128px;
+    line-height: 25px; }
+  .photoapp button {
+    position: relative;
+    top: 115px;
+    left: 128px;
+    color: #1d4e44; }
+
+.design {
+  z-index: 2;
+  position: relative;
+  top: -46px;
+  height: 560px;
+  background-color: #fff; }
+  .design img {
+    position: relative;
+    float: left;
+    top: 146px;
+    left: 123px;
+    margin-right: 330px; }
+  .design h2 {
+    position: relative;
+    top: 146px;
+    color: #16a085; }
+  .design p {
+    position: relative;
+    top: 146px;
+    color: #373737;
+    line-height: 25px; }
+  .design button {
+    position: relative;
+    top: 150px;
+    color: #1d4e44; }
+  .design .nmb {
+    margin-top: 50px;
+    font-size: 12px;
+    line-height: 7px;
+    font-weight: bold; }
+  .design .q {
+    line-height: 5px;
+    font-weight: bold;
+    font-size: 22px; }
+
+.community {
+  z-index: 2;
+  position: relative;
+  top: -63.5px;
+  height: 484px;
+  background-color: #f5f6f7;
+  text-align: center;
+  text-align: center; }
+  .community .pictures {
+    position: relative;
+    top: -60px;
+    float: right;
+    right: 128px; }
+    .community .pictures .car {
+      margin-right: 24px; }
+  .community h3, .community p {
+    position: relative;
+    top: 135px;
+    left: 123px;
+    width: 230px;
+    color: #373737; }
+
+.subscribe {
+  z-index: 2;
+  position: relative;
+  top: -82px;
+  height: 791px; }
+  .subscribe h3 {
+    position: relative;
+    top: 350px;
+    text-align: center;
+    vertical-align: middle;
+    width: justify;
+    color: #fff;
+    font-family: "Montserrat", sans-serif; }
+  .subscribe a {
+    text-decoration: none;
+    color: #1d4e44; }
+  .subscribe input {
+    position: relative;
+    top: 350px;
+    left: 467px;
+    width: 345px;
+    height: 61px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 22px; }
+  .subscribe .check-mark {
+    position: relative;
+    left: 750px;
+    top: 289px;
+    background-color: #16a085;
+    width: 62px;
+    height: 61px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 20px;
+    text-align: center; }
+
+/*--Footer-- */
+.download {
+  z-index: 2;
+  position: relative;
+  top: -103px;
+  background-color: #f5f6f7;
+  height: 396px; }
+  .download h3 {
+    position: relative;
+    top: 91px;
+    color: #373737;
+    font-weight: bold;
+    text-align: center; }
+  .download p {
+    position: relative;
+    top: 91px;
+    color: #373737;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px; }
+  .download .stores {
+    position: relative;
+    left: 445px;
+    width: 600px; }
+    .download .stores .apple,
+    .download .stores .play {
+      display: inline-block;
+      position: relative;
+      top: 91px;
+      width: 180px; }
+      .download .stores .apple a,
+      .download .stores .play a {
+        color: #1d4e44; }
+    .download .stores .apple {
+      margin-right: 27px; }
+
+.other-inf {
+  z-index: 1;
+  position: fixed;
+  bottom: -20px;
+  left: 123px;
+  right: 0;
+  height: 131px; }
+
+.inform {
+  position: relative;
+  top: -15px;
+  left: 123px;
+  width: 1100px; }
+  .inform a {
+    text-decoration: none;
+    color: #fff; }
+  .inform .btm {
+    border-right: 1px solid #16a085;
+    padding-right: 10px;
+    margin-right: 10px; }
+  .inform p {
+    margin-top: 25px;
+    color: #fff; }
+  .inform img {
+    position: relative;
+    top: -90px;
+    float: right;
+    width: 70px;
+    height: auto; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(135deg, #32222d, #c97351);
+}
+
+button:hover {
+  background-color: #59ebce;
+  color: #1d4e44;
+}
+#header a:hover {
+  color: #16a085;
+  border-bottom: 1px dotted #16a085;
+}
+.subscribe:hover .check-mark:hover {
+  background-color: #59ebce;
+  text-decoration: none;
+  color: #11352e;
+}
+.download {
+  margin-bottom: 100px;
+  -webkit-box-shadow: 1px 24px 52px -23px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 24px 52px -23px rgba(0,0,0,0.75);
+  box-shadow: 1px 24px 52px -23px rgba(0,0,0,0.75); }
+.inform a:hover {
+  text-decoration: none;
+  color: #16a085;
+}
